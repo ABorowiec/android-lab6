@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".GamesList"
+            android:label="@string/title_activity_game_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <service
+            android:name=".HttpService"
+            android:exported="false"></service>
     </application>
 
 </manifest>
